@@ -1,5 +1,3 @@
-import PropTypes from 'prop-types';
-
 export default function SocialCard({ id, logo, link, activeLink }) {
     return (
         <div
@@ -11,11 +9,4 @@ export default function SocialCard({ id, logo, link, activeLink }) {
             </a>
         </div>
     );
-}
-
-SocialCard.propTypes = {
-    activeLink: PropTypes.string.isRequired,
-    id: PropTypes.string.isRequired,
-    logo: PropTypes.string.isRequired,
-    link: PropTypes.string.isRequired,
 }

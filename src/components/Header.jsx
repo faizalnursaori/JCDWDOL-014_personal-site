@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 
 export default function Header({ activeLink, handleLinkClick }) {
     return (
@@ -38,8 +37,3 @@ export default function Header({ activeLink, handleLinkClick }) {
         </header>
     );
 }
-
-Header.propTypes = {
-    activeLink: PropTypes.string.isRequired,
-    handleLinkClick: PropTypes.func.isRequired,
-};

@@ -1,6 +1,5 @@
 import Avatar from '../assets/avatar.png';
 import { TypeAnimation } from 'react-type-animation';
-import PropTypes from 'prop-types';
 
 export default function AboutCard({ activeLink }) {
     return (
@@ -36,8 +35,4 @@ export default function AboutCard({ activeLink }) {
             </div>
         </div>
     );
-}
-
-AboutCard.propTypes = {
-    activeLink: PropTypes.string.isRequired,
 }

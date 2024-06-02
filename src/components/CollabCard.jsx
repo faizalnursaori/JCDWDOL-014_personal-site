@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import { useState } from 'react';
 
 export default function CollabCard({ activeLink }) {
@@ -45,8 +44,4 @@ export default function CollabCard({ activeLink }) {
             </div>
         </div>
     );
-}
-
-CollabCard.propTypes = {
-    activeLink: PropTypes.string.isRequired,
 }
