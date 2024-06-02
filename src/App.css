@@ -1,0 +1,24 @@
+body {
+  @apply bg-slate-500;
+}
+
+header {
+  @apply text-base font-semibold
+}
+
+.logo {
+  @apply text-2xl font-bold
+}
+
+.card {
+  @apply rounded-2xl p-4 h-[323px] transition duration-150 ease-out hover:ease-in hover:scale-[1.03]
+}
+
+
+.link {
+  @apply bg-white py-[6px] px-4 rounded-full text-slate-800 text-sm font-bold hover:bg-neutral-100 cursor-pointer;
+}
+
+.linkActive {
+  @apply bg-slate-800 hover:bg-slate-900 py-[6px] px-4 rounded-full text-white text-sm font-bold cursor-pointer from-transparent to-white/30 from-[100%] to-[70%];
+}
